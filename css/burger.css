@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #393636;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
+.container2{
+    width: 1600px;
+    margin: auto;
+}
+.nav__navigatisya{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ul{
+    display: flex;
+}
+.ul__li{
+    color: white;
+    display: block;
+    transition: .5s;
+    text-align: center;
+    align-items: center;
+    width: 93px;
+    padding: 22px 0;
+}
+.nav{
+    background:rgba(0, 0, 0, 0.863) ;
+    height: 65px;
+}
+.logo{
+    width: 216px;
+    height: 53px;
+}
+.ul__li:hover{
+    background: rgba(105, 207, 23, 0.75);
+}
+.header__content{
+    width: 1200px;
+    height: 700px;
+    
+    
+
+}
+
+.header__contents{
+    background: url(../img/header\ burger.jpg)  no-repeat center center ;
+}
+.header__content-title{
+    font-weight: 900;
+font-size: 72px;
+line-height: 85px;
+color: #69CF17;
+padding-top: 167px;
+}
+.header__content-recept{
+    font-weight: 400;
+font-size: 36px;
+line-height: 17px;
+padding-top: 18px;
+
+
+
+color: #69CF17;
+}
+.header__content-text{
+    font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+padding-top: 18px;
+
+
+
+color: #FFFFFF;
+max-width: 1110px;
+}
+.header__content-buttons-cash{
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__content-cash{
+    background: rgba(105, 207, 23, 0.5);
+backdrop-filter: blur(18px);
+color: #fff ;
+display: block;
+width:285px ;
+text-align: center;
+font-weight: 100;
+font-size: 50px;
+line-height: 25px;
+height: 73px;
+padding-top: 33px;
+}
+.header__content-span{
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 25px;
+}
+.header__content-btn{
+    font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: white;
+background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+border-radius: 6px;
+display: block;
+width: 255px;
+height: 51px;
+text-align: center;
+padding-top: 15px;
+}
+.uul{
+    display: flex;
+    column-gap: 31px;
+    background: #292929;
+box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.3);
+height: 65px;
+align-items: center;
+
+}
+.uul__link{
+    color: white;
+    font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+transition: .5s;
+}
+.uul__link:hover{
+    border-bottom: 1px solid white;
+}
+.cards__card{
+    background: #0C0C0C;
+border: 1px solid #FFFFFF;
+border-radius: 4px;
+width: 370px;
+height: 504px;
+padding-left: 15.63px;
+padding-top: 15px;
+
+}
+.cards__card-image{
+    width: 338px;
+    height: 325px;
+}
+.cards__card-title{
+    font-weight: 700;
+font-size: 19px;
+line-height: 15px;
+color: #FFFFFF;
+margin-top: 15px;
+}
+.cards__card-text{
+    font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+color: #FFFFFF;
+margin-top: 15px;
+
+}
+.section{
+    background: #393636;
+}
+.cards{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 15px;
+}
+.maps__tittle{
+    font-weight: 700;
+font-size: 50px;
+line-height: 40px;
+color: #69CF17;
+text-align: center;
+margin-bottom: 20px;
+margin-top: 20px;
+background: #fff;
+height: 80px;
+padding-top: 20px;
+}
+.navigatisya{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.navigatsiya__text{
+    align-items: center;
+    font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+}
+.footer__ul{
+    display: flex;
+    column-gap: 20px;
+    padding-left: 475px;
+
+}
+.footer__link{
+    font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+margin-top: 164px;
+
+
+}
+footer{
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+    height: 325px;
+}
+.cook{
+    background:rgba(0, 0, 0, 0.863) ;
+    
+}
+.cook__img{
+    width: 1110px;
+    height: 400px;
+    margin-top: 30px;
+}
+.cook__text{
+    font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+text-align: justify;
+color: #FFFFFF;
+margin-top: 30px;
+margin-bottom: 30px;
+}
